@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark" data-accent="intro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Таня Ковалёва — Senior 3D Motion, Brand &amp; Full-Cycle AI Designer</title>
+  <meta name="description" content="Портфолио Тани Ковалёвой — Senior Multidisciplinary Designer: 3D &amp; Motion, рекламные кампании 360°, масштабные ивенты, брендинг и Full-Cycle AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Таня Ковалёва — Senior 3D Motion, Brand &amp; Full-Cycle AI Designer" />
+  <meta property="og:description" content="Ключевые кейсы: рекламные кампании 360°, масштабные ивенты (Минск · Сочи · Москва), дизайн-системы и Full-Cycle AI." />
+  <meta property="og:image" content="assets/tanya_portrait.jpg" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23090A0D'/%3E%3Crect x='2' y='2' width='60' height='60' rx='14' fill='none' stroke='%2337E0E3' stroke-width='2.5'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial,sans-serif' font-size='26' font-weight='800' fill='%23F5F6F8'%3ETK%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="mode-slides">
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <div class="progress-track" aria-hidden="true">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+
+  <!-- Top Navigation -->
+  <header class="topbar">
+    <a href="#slide-1" class="brand-mark" data-goto="0">
+      <div class="brand-monogram">TK</div>
+      <div class="brand-text">
+        <span class="brand-name">Таня Ковалёва</span>
+        <span class="brand-sub">3D Motion · Brand · Full-Cycle AI</span>
+      </div>
+    </a>
+
+    <nav class="chapter-nav" aria-label="Разделы презентации">
+      <button class="chapter-btn active" data-chapter="intro" data-goto="0">00 · Обо мне</button>
+      <button class="chapter-btn" data-chapter="alfa" data-goto="1">01 · Кампании 360°</button>
+      <button class="chapter-btn" data-chapter="events" data-goto="4">02 · Масштабные ивенты</button>
+      <button class="chapter-btn" data-chapter="osstem" data-goto="7">03 · Брендинг Osstem</button>
+      <button class="chapter-btn" data-chapter="outro" data-goto="9">Контакты</button>
+    </nav>
+
+    <div class="topbar-actions">
+      <div class="mode-switch" role="group" aria-label="Режим просмотра">
+        <button class="mode-btn active" id="btnModeSlides" title="Режим презентации по слайдам">Слайды</button>
+        <button class="mode-btn" id="btnModeScroll" title="Вертикальный скролл всех слайдов">Лонгрид</button>
+      </div>
+
+      <button class="icon-btn" id="btnTheme" title="Переключить тему (Тёмная / Светлая)" aria-label="Переключить тему">
+        <span id="themeIcon">☀</span>
+      </button>
+
+      <button class="home-btn" id="btnGoHome" data-goto="0">
+        <span>↑ На главную</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Presentation Deck -->
+  <main class="deck-wrapper" id="deckWrapper">
+
+    <!-- ================= SLIDE 01: ОБО МНЕ ================= -->
+    <section class="slide active" id="slide-1" data-index="0" data-chapter="intro">
+      <div class="slide-inner hero-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Portfolio Deck · 2026</span>
+              <span class="slide-step-tag">01 / 10 · ПРОФИЛЬ</span>
+            </div>
+            <h1 class="hero-title" style="margin-top: 12px;">Таня Ковалёва</h1>
+            <p class="role-headline">Senior Multidisciplinary Designer · 3D Motion, Brand &amp; Full-Cycle AI</p>
+          </div>
+
+          <p class="lead-copy">
+            Работаю <strong>быстро, чётко и структурно</strong> — без потери качества на высоких скоростях.
+            Одинаково органично выстраиваю масштабируемые дизайн-системы и выхожу в смелый креатив, когда бренду нужно пробить визуальный шум.
+            Постоянно изучаю новые инструменты, слежу за мировыми трендами и сразу перевожу технологии в прикладную пользу для бизнеса.
+          </p>
+
+          <div class="pillars-grid">
+            <div class="pillar-box">
+              <span class="pillar-num">01 // CORE</span>
+              <div class="pillar-title">3D &amp; Motion Design</div>
+              <p class="pillar-desc">Мой базовый фундамент: 3D-моделинг, продуктовый CGI, голографика и динамичная 3D-анимация для диджитала и больших сцен.</p>
+            </div>
+            <div class="pillar-box">
+              <span class="pillar-num">02 // 360° BRAND &amp; EVENTS</span>
+              <div class="pillar-title">Айдентика, ивенты, мерч</div>
+              <p class="pillar-desc">За последние 2–3 года реализовала ряд айдентик для брендов и крупных мероприятий: от идеи и KV до стендов, мерча и печати.</p>
+            </div>
+            <div class="pillar-box">
+              <span class="pillar-num">03 // FULL-CYCLE AI</span>
+              <div class="pillar-title">ИИ полного цикла</div>
+              <p class="pillar-desc">Видео и статика, AI-люди (по реальным моделям и с нуля), AI-музыка, AI для 3D-моделинга, AI-агенты и сборка сайтов.</p>
+            </div>
+          </div>
+
+          <div class="chip-list">
+            <span class="chip">Системность × Креатив</span>
+            <span class="chip">Высокая скорость и точность</span>
+            <span class="chip">От концепции до препресса</span>
+            <span class="chip">Art Direction &amp; Production</span>
+          </div>
+        </div>
+
+        <div class="hero-visual-col anim-2">
+          <div class="portrait-card" data-lightbox="assets/tanya_portrait.jpg" data-caption="Таня Ковалёва — Senior 3D Motion, Brand & AI Designer">
+            <img src="assets/tanya_portrait.jpg" alt="Таня Ковалёва" />
+            <div class="portrait-badge">
+              <div class="portrait-badge-title">Таня Ковалёва · <a href="https://t.me/dragondreams" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();" style="color: inherit; text-decoration: underline; text-underline-offset: 3px;">@dragondreams</a></div>
+              <div class="portrait-badge-sub">Мультидисциплинарный дизайнер: 3D + Брендинг + AI</div>
+            </div>
+          </div>
+
+          <div class="ai-matrix-card">
+            <div class="ai-matrix-title">Full-Cycle AI &amp; 3D Инструментарий</div>
+            <div class="ai-tags">
+              <span class="ai-tag">3D Modeling &amp; Animation</span>
+              <span class="ai-tag">AI Video &amp; Static</span>
+              <span class="ai-tag">AI-модели по реальным людям</span>
+              <span class="ai-tag">Новые AI-персонажи</span>
+              <span class="ai-tag">AI для 3D-пайплайна</span>
+              <span class="ai-tag">AI Music &amp; Sound</span>
+              <span class="ai-tag">AI-агенты и AI-сайты</span>
+              <span class="ai-tag">Полиграфия и Prepress</span>
+            </div>
+          </div>
+
+          <div class="quick-jump-card">
+            <div class="ai-matrix-title">Ключевые кейсы в презентации</div>
+            <button class="jump-item" data-goto="1">
+              <span><span class="idx">01</span>Медийные и диджитал-РК 360° (Альфа-Банк)</span>
+              <span>→</span>
+            </button>
+            <button class="jump-item" data-goto="4">
+              <span><span class="idx">02</span>Айдентика масштабных ивентов (Минск · Сочи · Москва)</span>
+              <span>→</span>
+            </button>
+            <button class="jump-item" data-goto="7">
+              <span><span class="idx">03</span>Айдентика и система шаблонов Osstem Implant</span>
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 02: ПРОЕКТ 1 (1/3) ПОКУПКА ЧАСТЯМИ ================= -->
+    <section class="slide" id="slide-2" data-index="1" data-chapter="alfa">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 01 · Рекламные кампании 360°</span>
+              <span class="slide-step-tag">02 / 10 · КЕЙС 1.1</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Диджитал-РК «Покупка частями» в связке с цифровым бизнесом</h2>
+          </div>
+
+          <p class="lead-copy">
+            Серия медийных и полумедийных продуктовых кампаний к Чёрной пятнице и сезону крупных покупок, где креатив напрямую решает задачу конверсии и скорости запуска новых флайтов.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">01 · Проблематика</div>
+              <p class="prsi-text">В один макет нужно было уместить <strong>много продуктового текста</strong>, айдентику банка, маркер <strong>Black Friday (SALE)</strong>, механику «Покупки частями» и предмет категории — <strong>без визуального шума</strong>.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">02 · Моя роль</div>
+              <p class="prsi-text">Разработка визуальной идеи и 3D-метафоры, 3D-моделинг и рендер композиций с объектами, сборка мастер-макетов и ресайзов (16:9, 9:16 и др.).</p>
+            </div>
+            <div class="prsi-card span-2">
+              <div class="prsi-label">03 · Дизайн-решение</div>
+              <p class="prsi-text">Интегрировала сам предмет покупки (наушники, смарт-часы и др.) прямо <strong>внутрь объёмных 3D-пазлов</strong> из матового металла и бирюзы с лаконичным тегом SALE и картой Альфы. Суть продукта считывается мгновенно на уровне образа, освобождая воздух для типографики.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Ценность и результат для бизнеса</div>
+              <p class="prsi-text">Стильная нестандартная подача убрала информационный перегруз и превратилась в <strong>масштабируемую систему-конструктор</strong>: замена объекта внутри пазла позволила команде <strong>в разы быстрее запускать новые РК</strong> под другие категории и офферы.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-puzzle anim-2">
+          <div class="media-card" data-lightbox="assets/p1_puzzle_headphones_16x9.jpg" data-caption="РК «Покупка частями» — Мастер-визуал 16:9 (Категория гаджетов / Black Friday)">
+            <img src="assets/p1_puzzle_headphones_16x9.jpg" alt="Покупка частями — наушники 16:9" />
+            <span class="media-caption">Мастер-визуал 16:9 · Категория «Гаджеты»</span>
+          </div>
+          <div class="media-card row-span-2" data-lightbox="assets/p1_puzzle_headphones_9x16.jpg" data-caption="РК «Покупка частями» — Вертикальный формат 9:16 и масштабирование на смарт-часы">
+            <img src="assets/p1_puzzle_headphones_9x16.jpg" alt="Покупка частями — вертикальный 9:16" />
+            <span class="media-caption">Адаптация 9:16 · Stories / DOOH</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p1_puzzle_watch_16x9.jpg" data-caption="Масштабирование 3D-системы под новый оффер: «Первый чек под 0,00001%»">
+            <img src="assets/p1_puzzle_watch_16x9.jpg" alt="Покупка частями — смарт-часы 16:9" />
+            <span class="media-caption">Масштабирование системы · Новый оффер 0,00001%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 03: ПРОЕКТ 1 (2/3) А ЗНАЕШЬ МОЖНО — КОНЦЕПТ & AI ================= -->
+    <section class="slide" id="slide-3" data-index="2" data-chapter="alfa">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 01 · Рекламные кампании 360°</span>
+              <span class="slide-step-tag">03 / 10 · КЕЙС 1.2 (AI-ПАЙПЛАЙН)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Кампания «А знаешь, можно»: смелый выход за рамки и AI-продакшн</h2>
+          </div>
+
+          <p class="lead-copy">
+            Яркая имиджево-продуктовая кампания для продвижения платёжного стикера и флагманских решений банка, построенная на гибриде живой фотосъёмки и генеративного ИИ.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">01 · Проблематика</div>
+              <p class="prsi-text">Требовалось отстроиться от привычной банковской коммуникации, пробить баннерную слепоту и показать новый сценарий оплаты телефоном максимально живо и запоминающе.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">02 · Моя роль</div>
+              <p class="prsi-text">Разработка концепции, AI-перегенерация моделей на базе инхаус-съёмки, арт-дирекшн поз и деталей, адаптация на все носители и подготовка к печати.</p>
+            </div>
+            <div class="prsi-card span-2">
+              <div class="prsi-label">03 · Дизайн-решение</div>
+              <p class="prsi-text">Осознанно вышли за строгие рамки стандартной айдентики в контрастный диалоговый код (алый фон + циановые бабблы + фиолетовый фрейм). Взяла исходники с нашей фотосъёмки, <strong>перегенерировала людей через ИИ</strong>, поставила в динамичные ракурсные позы с крупным планом стикера и добавила яркую атрибутику.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Ценность и результат для бизнеса</div>
+              <p class="prsi-text">Кампания принесла <strong>высокие показатели эффективности</strong> <em>(точные цифры под NDA)</em>, дала мощную узнаваемость и сэкономила бюджет и время продакшна за счёт AI-трансформации исходной съёмки без повторных студийных смен.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-aznaesh-concept anim-2">
+          <div class="media-card row-span-2 contain-dark" data-lightbox="assets/p1_aznaesh_hero_cutout.png" data-caption="AI-трансформация персонажа на базе реальной съёмки с добавлением стильной атрибутики">
+            <img src="assets/p1_aznaesh_hero_cutout.png" alt="А знаешь, можно — AI-персонаж" />
+            <span class="media-caption">AI-регенерация образа + атрибутика и поза</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p1_aznaesh_top_0.jpg" data-caption="Широкоформатный макет: «А знаешь, можно платить телефоном со стикером Альфы»">
+            <img src="assets/p1_aznaesh_top_0.jpg" alt="А знаешь, можно — макет 16:9 девушка" />
+            <span class="media-caption">Широкий формат · Сюжет 01 (Стикер Альфы)</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p1_aznaesh_top_1.jpg" data-caption="Широкоформатный макет: «А знаешь, можно платить в одно касание стикером Альфы»">
+            <img src="assets/p1_aznaesh_top_1.jpg" alt="А знаешь, можно — макет 16:9 парень" />
+            <span class="media-caption">Широкий формат · Сюжет 02 (Оплата в касание)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 04: ПРОЕКТ 1 (3/3) А ЗНАЕШЬ МОЖНО — ГОРОД & ИНДОР ================= -->
+    <section class="slide" id="slide-4" data-index="3" data-chapter="alfa">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 01 · Рекламные кампании 360°</span>
+              <span class="slide-step-tag">04 / 10 · КЕЙС 1.2 (НОСИТЕЛИ &amp; OOH)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">«А знаешь, можно» в городе, лифтах и диджитал-среде</h2>
+          </div>
+
+          <p class="lead-copy">
+            Разводка кампании на уличные ситилайты, индор-носители в лифтах и бизнес-центрах, а также диджитал-сетку с безупречной предпечатной подготовкой.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card span-2">
+              <div class="prsi-label">Архитектура быстрого контакта (1.5 сек)</div>
+              <p class="prsi-text">В лифте и вдоль городского трафика у зрителя есть всего пара секунд: модульная структура «разговорный хук → чёткий оффер в циановом баббле → белые триггеры <strong>без карт / без наличных</strong> → жест с телефоном» срабатывает мгновенно на любой дистанции.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">Мультиформатность</div>
+              <p class="prsi-text">Единая композиционная логика без потерь перестраивается между уличными ситилайтами, постерами в лифтах, широкоформатными бордами и мобайл-экранами.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">Чистый Prepress</div>
+              <p class="prsi-text">Выверенные цветопробы для сложного сочетания активного красного, циана и фиолетового в офсетной и широкоформатной печати.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Синергия офлайна и диджитала</div>
+              <p class="prsi-text">Единый визуальный язык связал наружную рекламу, индор в жилых и деловых комплексах и перформанс-форматы в смартфонах в цельную воронку с высокой запоминаемостью.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-aznaesh-ooh anim-2">
+          <div class="media-card" data-lightbox="assets/p1_aznaesh_city_mockup.jpg" data-caption="Городской ситилайт — РК «А знаешь, можно платить телефоном со стикером Альфы»">
+            <img src="assets/p1_aznaesh_city_mockup.jpg" alt="Ситилайт в городе — А знаешь можно" />
+            <span class="media-caption">Городской ситилайт · OOH</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p1_aznaesh_elevator_mockup.jpg" data-caption="Индор-носитель в современном лифте — «А знаешь, можно платить в одно касание»">
+            <img src="assets/p1_aznaesh_elevator_mockup.jpg" alt="Постер в лифте — А знаешь можно" />
+            <span class="media-caption">Индор-постер в лифте · БЦ и ЖК</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p1_aznaesh_digital_mockup.jpg" data-caption="Диджитал-адаптация кампании для мобильных экранов и Stories">
+            <img src="assets/p1_aznaesh_digital_mockup.jpg" alt="Мобильный диджитал-носитель — А знаешь можно" />
+            <span class="media-caption">Диджитал-носитель · Mobile</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 05: ПРОЕКТ 2 (1/3) ALFA JAZZ ================= -->
+    <section class="slide" id="slide-5" data-index="4" data-chapter="events">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 02 · Айдентика масштабных ивентов</span>
+              <span class="slide-step-tag">05 / 10 · ИВЕНТ 2.1 (МИНСК)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Фестиваль Alfa Jazz в Парке Горького — 3 года развития и масштаба</h2>
+          </div>
+
+          <p class="lead-copy">
+            Большой городской open-air фестиваль под открытым небом, который я веду по дизайну уже <strong>три года подряд</strong>, ежегодно масштабируя визуальную среду площадки вместе с командой.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">01 · Проблематика</div>
+              <p class="prsi-text">Огромная зелёная территория парка с десятками зон активностей и тысячами гостей: визуал должен считываться с десятков метров днём и эффектно работать ночью.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">02 · Моя роль</div>
+              <p class="prsi-text">Идея и концепция, 3D-графика, разводка айдентики на все носители парка и города, препресс и авторский выезд на монтаж застройки.</p>
+            </div>
+            <div class="prsi-card span-2">
+              <div class="prsi-label">03 · Дизайн-решение</div>
+              <p class="prsi-text">Построила систему на <strong>смелых брендовых цветах, 3D-голографических музыкальных инструментах</strong> и крупной архитектурной вёрстке — принципиально <strong>без мелкой типографики</strong>, теряющейся на открытом воздухе.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Ценность и результат для бизнеса</div>
+              <p class="prsi-text">С каждым годом проект растёт по размаху и качеству застройки: цельный визуальный код объединил сцену, арт-объекты, стенды с программой и городские афиши в знаковое культурное событие бренда.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-jazz anim-2">
+          <div class="media-card" data-lightbox="assets/p2_jazz_stage_wide.jpg" data-caption="Главная сцена фестиваля Alfa Jazz в Парке Горького: башни застройки и LED-экраны">
+            <img src="assets/p2_jazz_stage_wide.jpg" alt="Alfa Jazz — главная сцена" />
+            <span class="media-caption">Главная сцена · Застройка и LED-экраны</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_jazz_build_alfa.jpg" data-caption="Процесс сборки и монтажа конструкций главной сцены Alfa Jazz на площадке">
+            <img src="assets/p2_jazz_build_alfa.jpg" alt="Alfa Jazz — монтаж конструкций сцены" />
+            <span class="media-caption">Монтаж на площадке · Сборка сцены</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_jazz_piano.jpg" data-caption="Брендированное красное пианино Alfa Jazz и чилл-зона в парке">
+            <img src="assets/p2_jazz_piano.jpg" alt="Alfa Jazz — пианино в парке" />
+            <span class="media-caption">Арт-объект · Пианино Alfa Jazz</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_jazz_kv_wall.jpg" data-caption="Alfa Jazz — Ключевой визуал с 3D-голографичным саксофоном на конструкциях площадки">
+            <img src="assets/p2_jazz_kv_wall.jpg" alt="Alfa Jazz — 3D голографический KV" />
+            <span class="media-caption">KV в среде · 3D-голографика</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_jazz_totem.jpg" data-caption="Уличный стенд-тумба с программой мероприятия Alfa Jazz">
+            <img src="assets/p2_jazz_totem.jpg" alt="Alfa Jazz — стенд с программой мероприятия" />
+            <span class="media-caption">Стенд с программой мероприятия</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_jazz_citylight.jpg" data-caption="Городской ситилайт с афишей фестиваля Alfa Jazz">
+            <img src="assets/p2_jazz_citylight.jpg" alt="Alfa Jazz — афиша ситилайт" />
+            <span class="media-caption">Городской ситилайт · Афиша</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 06: ПРОЕКТ 2 (2/3) ULTIMA GUIDE СОЧИ ================= -->
+    <section class="slide" id="slide-6" data-index="5" data-chapter="events">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 02 · Айдентика масштабных ивентов</span>
+              <span class="slide-step-tag">06 / 10 · ИВЕНТ 2.2 (СОЧИ)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Ultima Guide Яндекс Еда — летняя церемония в Сочи</h2>
+          </div>
+
+          <p class="lead-copy">
+            Закрытая вечерняя премия ресторанного гида Ultima в неоклассическом Летнем театре Сочи с утончённой световой и предметной режиссурой.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">01 · Проблематика</div>
+              <p class="prsi-text">Передать премиальный гастрономический статус события и связать цифровую анимацию главной сцены с архитектурой колоннады, сервировкой и полиграфией.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">02 · Моя роль (Invited)</div>
+              <p class="prsi-text">Приглашённый дизайнер: <strong>анимация KV для пригласительных и главного экрана наград</strong>, визуализация расстановки декора и помощь команде с мелкой печаткой.</p>
+            </div>
+            <div class="prsi-card span-2">
+              <div class="prsi-label">03 · Дизайн-решение</div>
+              <p class="prsi-text">Плавная янтарно-золотая анимация знака Ultima на центральном LED-экране сцены стала главной световой доминантой зала, гармонично дополнив струящиеся ткани фотозон, коллекционные печатные гиды и зеркальные сферы на столах.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Ценность и результат для бизнеса</div>
+              <p class="prsi-text">Бесшовный премиальный опыт гостя от момента получения анимированного инвайта до ресепшена, фотозоны и кульминации вручения наград на сцене.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-ultima anim-2">
+          <div class="media-card row-span-2" data-video="assets/p2_ultima_invite_phone.mp4" data-caption="3D диджитал-приглашение Ultima Guide Яндекс Еда (Сочи) — моушн-анимация в смартфоне">
+            <span class="video-pill">▶ 3D MOTION</span>
+            <video src="assets/p2_ultima_invite_phone.mp4" poster="assets/p2_ultima_invite_poster.jpg" autoplay loop muted playsinline preload="metadata"></video>
+            <span class="media-caption">Диджитал-приглашение · 3D Motion</span>
+          </div>
+          <div class="media-card" data-video="assets/p2_ultima_kv_screen.mp4" data-caption="Зацикленная 3D-анимация главного экрана церемонии вручения наград Ultima Guide">
+            <span class="video-pill">▶ 3D SCREEN</span>
+            <video src="assets/p2_ultima_kv_screen.mp4" poster="assets/p2_ultima_kv_poster.jpg" autoplay loop muted playsinline preload="metadata"></video>
+            <span class="media-caption">3D-видео для главного экрана сцены</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_ultima_columns_zone.jpg" data-caption="Фотозона в колоннаде Летнего театра Сочи с объёмным знаком и драпировкой">
+            <img src="assets/p2_ultima_columns_zone.jpg" alt="Ultima Guide — фотозона в колоннах" />
+            <span class="media-caption">Фотозона в колоннаде</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_ultima_hall_wide.jpg" data-caption="Общий вид зала: сцена с экранной графикой, сервировка столов и текстильная фотозона">
+            <img src="assets/p2_ultima_hall_wide.jpg" alt="Ultima Guide — панорама зала и сцены" />
+            <span class="media-caption">Среда зала и главный экран</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p2_ultima_table_award.jpg" data-caption="Детали сервировки стола, световой шар и награда Ultima">
+            <img src="assets/p2_ultima_table_award.jpg" alt="Ultima Guide — сервировка и награда" />
+            <span class="media-caption">Сервировка, свет и награда</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 07: ПРОЕКТ 2 (3/3) TROUVER МОСКВА ================= -->
+    <section class="slide" id="slide-7" data-index="6" data-chapter="events">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 02 · Айдентика масштабных ивентов</span>
+              <span class="slide-step-tag">07 / 10 · ИВЕНТ 2.3 (МОСКВА)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Большая презентация флагманов Trouver в Москве — дизайн под ключ</h2>
+          </div>
+
+          <p class="lead-copy">
+            Масштабная технологическая презентация линейки пылесосов Trouver и торжественный гала-ужин, полностью упакованные в экстремально сжатый тайминг.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">01 · Проблематика</div>
+              <p class="prsi-text">Огромный объём разноформатных физических и цифровых носителей (демо-стенды линейки, сцена, мерч, ужин) при <strong>очень жёстких сроках запуска</strong>.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">02 · Моя роль (Lead Design)</div>
+              <p class="prsi-text">Приглашённый дизайнер — <strong>закрыла всю дизайн-часть с арт-директором</strong>: стенды, KV, анимация инвайта, бейджи, мерч, меню, препресс и поддержка до старта.</p>
+            </div>
+            <div class="prsi-card span-2">
+              <div class="prsi-label">03 · Дизайн-решение</div>
+              <p class="prsi-text">Выстроила премиальную эстетику тёмной бронзы и жидкого хрома (<em>«Шаг к безупречности»</em>): чистая продуктовая архитектура стендов (M50, V70, Z70, S70), лаконичная форма консультантов, полупрозрачные бейджи на брендированных лентах и сет меню для гала-ужина.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Ценность и результат для бизнеса</div>
+              <p class="prsi-text">Весь пул застройки и полиграфии сдан в печать вовремя и реализован на высоком уровне без сбоев — <strong>клиент и команда остались в полном восторге</strong>.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-trouver anim-2">
+          <div class="media-card row-span-2" data-video="assets/p2_trouver_invite_hand.mp4" data-caption="3D видео-приглашение на закрытую премьеру Trouver в Москве (кликните для просмотра со звуком)">
+            <span class="video-pill">▶ 3D MOTION · ЗВУК</span>
+            <video src="assets/p2_trouver_invite_hand.mp4" poster="assets/p2_trouver_invite_poster.jpg" autoplay loop muted playsinline preload="metadata"></video>
+            <span class="media-caption">3D видео-приглашение · Крупный план</span>
+          </div>
+          <div class="media-card col-span-3" data-lightbox="assets/p2_trouver_m50_frontal.jpg" data-caption="Продуктовые демо-стенды линейки Trouver (M50 / S7 / G70) на площадке в Москве">
+            <img src="assets/p2_trouver_m50_frontal.jpg" alt="Trouver — продуктовые стенды" />
+            <span class="media-caption">Дизайн и застройка демо-стендов</span>
+          </div>
+          <div class="media-card col-span-3" data-lightbox="assets/p2_trouver_stage_waterfall.jpg" data-caption="Главная сцена презентации Trouver с каскадным LED-экраном">
+            <img src="assets/p2_trouver_stage_waterfall.jpg" alt="Trouver — главная сцена" />
+            <span class="media-caption">Главная сцена · LED-инсталляция</span>
+          </div>
+          <div class="media-card col-span-2" data-lightbox="assets/p2_trouver_badge_mockup.jpg" data-caption="Фирменный VIP-бейдж на тканевом ланьярде с хромированной 3D-графикой для Trouver">
+            <img src="assets/p2_trouver_badge_mockup.jpg" alt="Trouver — мокап бейджа и ленты" />
+            <span class="media-caption">VIP-бейдж и лента</span>
+          </div>
+          <div class="media-card col-span-2" data-lightbox="assets/p2_trouver_merch.jpg" data-caption="Дизайн брендированного мерча и униформы для консультантов демо-зон">
+            <img src="assets/p2_trouver_merch.jpg" alt="Trouver — мерч консультантов" />
+            <span class="media-caption">Мерч консультантов</span>
+          </div>
+          <div class="media-card col-span-2" data-lightbox="assets/p2_trouver_table_live.jpg" data-caption="Реализация полиграфии и меню в сервировке гала-ужина Trouver">
+            <img src="assets/p2_trouver_table_live.jpg" alt="Trouver — живое фото сервировки с меню" />
+            <span class="media-caption">Меню в зале ужина</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 08: ПРОЕКТ 3 (1/2) OSSTEM АЙДЕНТИКА ================= -->
+    <section class="slide" id="slide-8" data-index="7" data-chapter="osstem">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 03 · Брендинг и дизайн-система</span>
+              <span class="slide-step-tag">08 / 10 · КЕЙС 3.1 (СТРАТЕГИЯ &amp; СИСТЕМА)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Osstem Implant: визуальная отстройка и фирменная графика</h2>
+          </div>
+
+          <p class="lead-copy">
+            Создание целостной визуальной идентичности для представительства мирового бренда дентальных имплантов <strong>Osstem Implant</strong> — от палитры и типографики до библиотеки 2D-элементов.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">01 · Проблематика</div>
+              <p class="prsi-text">У бренда отсутствовало узнаваемое визуальное лицо: каждый пост, сторис или афиша собирались хаотично с нуля, размывая образ компании и съедая часы работы.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">02 · Моя роль</div>
+              <p class="prsi-text">Визуальный аудит, разработка концепции айдентики, цветовой и шрифтовой схемы, фирменных 2D-форм, паттернов и гайдлайнов.</p>
+            </div>
+            <div class="prsi-card span-2">
+              <div class="prsi-label">03 · Дизайн-решение</div>
+              <p class="prsi-text">Соединила энергичный оранжевый <strong>#FF6100</strong> с чистой бирюзой (<strong>#37E0E3, #8CD5D6</strong>) и благородным графитом <strong>#252122</strong>. На базе пластики логотипа построила гладкие округлые 2D-элементы (образ комфорта и точности): динамичную стрелку <strong>S</strong>, плашки и паттерн <strong>SS</strong>.</p>
+              <div class="swatch-row" style="margin-top: 8px;">
+                <span class="swatch-pill" style="background:#FF6100;color:#fff;">#FF6100</span>
+                <span class="swatch-pill" style="background:#37E0E3;color:#111;">#37E0E3</span>
+                <span class="swatch-pill" style="background:#8CD5D6;color:#111;">#8CD5D6</span>
+                <span class="swatch-pill" style="background:#252122;color:#fff;">#252122</span>
+                <span class="swatch-pill" style="background:#D9D9D9;color:#111;">#D9D9D9</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-osstem-1 anim-2">
+          <div class="media-card col-span-2" data-lightbox="assets/p3_osstem_expo_booth.jpg" data-caption="Концепция фирменного выставочного стенда Osstem Implant на стоматологическом конгрессе">
+            <img src="assets/p3_osstem_expo_booth.jpg" alt="Osstem Implant — выставочный стенд" />
+            <span class="media-caption">Выставочный стенд Osstem Implant · Экспо-среда</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p3_osstem_macbook_system.jpg" data-caption="Система визуальной айдентики Osstem Implant: палитра, 2D-элементы и продуктовые карточки">
+            <img src="assets/p3_osstem_macbook_system.jpg" alt="Osstem — дизайн-система в ноутбуке" />
+            <span class="media-caption">Дизайн-система и гайдбук · Ноутбук</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p3_osstem_expo_badges.jpg" data-caption="Фирменные бейджи спикеров, ленты и полиграфия для профильных мероприятий Osstem">
+            <img src="assets/p3_osstem_expo_badges.jpg" alt="Osstem — бейджи и буклет" />
+            <span class="media-caption">Бейджи и полиграфия мероприятий</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 09: ПРОЕКТ 3 (2/2) OSSTEM ШАБЛОНЫ & РЕЗУЛЬТАТ ================= -->
+    <section class="slide" id="slide-9" data-index="8" data-chapter="osstem">
+      <div class="slide-inner case-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Проект 03 · Брендинг и дизайн-система</span>
+              <span class="slide-step-tag">09 / 10 · КЕЙС 3.2 (ШАБЛОНЫ &amp; ЭФФЕКТ)</span>
+            </div>
+            <h2 class="slide-title" style="margin-top: 10px;">Модульный конструктор постов и плакатов — скорость для команды</h2>
+          </div>
+
+          <p class="lead-copy">
+            Перевод айдентики в прикладную дизайн-систему: готовые шаблоны закрыли все сценарии от экспертного SMM и анонсов обучений до печатной полиграфии и выставок.
+          </p>
+
+          <div class="prsi-stack">
+            <div class="prsi-card">
+              <div class="prsi-label">Сценарные шаблоны</div>
+              <p class="prsi-text">Плакатная типографика с крупными цифрами, продуктовые карточки имплантов (TS / US / A-Oss), фото-рамки клинических кейсов, аватары и Highlights.</p>
+            </div>
+            <div class="prsi-card">
+              <div class="prsi-label">Онлайн + Офлайн</div>
+              <p class="prsi-text">Одни и те же графические модули одинаково чисто масштабируются из ленты Instagram в интерьерные постеры, буклеты и стенды конференций.</p>
+            </div>
+            <div class="prsi-card span-2 impact-card">
+              <div class="prsi-label">✦ Главный результат для бизнеса</div>
+              <p class="prsi-text">1) <strong>Сильная дифференциация</strong>: Osstem ярко выделился среди однотипных «бело-голубых» медицинских аккаунтов.<br/>2) <strong>Экономия часов работы</strong>: любой член команды теперь собирает посты, сторис и печатные макеты <strong>быстро и с минимальными усилиями</strong> без потери качества.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-stage bento-osstem-2 anim-2">
+          <div class="media-card" data-lightbox="assets/p3_osstem_iphone_mockup.jpg" data-caption="Оформление Instagram-профиля, сетки постов и Stories @osstem_belarus на смартфонах">
+            <img src="assets/p3_osstem_iphone_mockup.jpg" alt="Osstem — мокап смартфонов SMM" />
+            <span class="media-caption">SMM-система на телефоне · Профиль и Stories</span>
+          </div>
+          <div class="media-card" data-lightbox="assets/p3_osstem_laptop_templates.jpg" data-caption="Модульный конструктор шаблонов Osstem в рабочей среде ноутбука">
+            <img src="assets/p3_osstem_laptop_templates.jpg" alt="Osstem — конструктор шаблонов в ноутбуке" />
+            <span class="media-caption">Конструктор шаблонов · Ноутбук</span>
+          </div>
+          <div class="media-card col-span-2" data-lightbox="assets/p3_osstem_posters_gallery.jpg" data-caption="Серия модульных плакатов Osstem Implant в интерьере образовательного центра">
+            <img src="assets/p3_osstem_posters_gallery.jpg" alt="Osstem — серия плакатов в интерьере" />
+            <span class="media-caption">Серия модульных плакатов в среде</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SLIDE 10: ФИНАЛ ДЛЯ РАБОТОДАТЕЛЯ & КОНТАКТЫ ================= -->
+    <section class="slide" id="slide-10" data-index="9" data-chapter="outro">
+      <div class="slide-inner outro-grid">
+        <div class="strategy-panel anim-1">
+          <div>
+            <div class="eyebrow-row">
+              <span class="pill-tag"><span class="pill-dot"></span> Для работодателя и команды</span>
+              <span class="slide-step-tag">10 / 10 · КОНТАКТЫ</span>
+            </div>
+            <h2 class="hero-title" style="margin-top: 12px; font-size: clamp(26px, 2.5vw, 38px);">Почему со мной бизнесу быстро, надёжно и выгодно</h2>
+          </div>
+
+          <p class="lead-copy">
+            Я закрываю задачи на стыке 3D, брендинга, офлайн-продакшна и ИИ как единая боевая единица — понимаю метрики бизнеса, бережно отношусь к срокам и выдаю предсказуемо высокий результат.
+          </p>
+
+          <div class="value-cards">
+            <div class="value-card">
+              <h4>⚡ Скорость без потери планки</h4>
+              <p>Быстро погружаюсь в контекст, держу жёсткие дедлайны крупных запусков и довожу детали до идеала.</p>
+            </div>
+            <div class="value-card">
+              <h4>🧩 Дизайн, который масштабируется</h4>
+              <p>Создаю не разовые картинки, а удобные системы и конструкторы, экономящие десятки часов команде.</p>
+            </div>
+            <div class="value-card">
+              <h4>🤖 Full-Cycle AI в деле</h4>
+              <p>Практически применяю AI-видео, генерацию моделей, звук, 3D и агентов для ускорения и удешевления продакшна.</p>
+            </div>
+            <div class="value-card">
+              <h4>🎯 От идеи до печати и сцены</h4>
+              <p>Уверенно веду проект от первого скетча и 3D-шоурила до многометровых стендов, мерча и чистого препресса.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts-panel anim-2">
+          <div class="contact-person-row">
+            <img src="assets/tanya_portrait.jpg" alt="Таня Ковалёва" class="contact-avatar" />
+            <div>
+              <h3 style="font-family: var(--font-display); font-size: 21px;">Таня Ковалёва</h3>
+              <p style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;">Senior 3D Motion · Brand · Full-Cycle AI Designer</p>
+            </div>
+          </div>
+
+          <div class="contact-links-list">
+            <a class="contact-link-card primary-tg" href="https://t.me/dragondreams" target="_blank" rel="noopener noreferrer">
+              <span class="c-label">Telegram · Быстрая связь</span>
+              <span class="c-val">@dragondreams →</span>
+            </a>
+
+            <a class="contact-link-card" href="mailto:tanya3kovaleva323@gmail.com">
+              <span class="c-label">Email</span>
+              <span class="c-val">tanya3kovaleva323@gmail.com</span>
+            </a>
+
+            <a class="contact-link-card" href="tel:+375447979270">
+              <span class="c-label">Телефон</span>
+              <span class="c-val">+375 44 797-92-70</span>
+            </a>
+
+            <a class="contact-link-card" href="https://www.linkedin.com/in/tanyakovaleva-3d/" target="_blank" rel="noopener noreferrer">
+              <span class="c-label">LinkedIn</span>
+              <span class="c-val">in/tanyakovaleva-3d ↗</span>
+            </a>
+
+            <a class="contact-link-card" href="https://www.instagram.com/dragon.dreams_" target="_blank" rel="noopener noreferrer">
+              <span class="c-label">Instagram</span>
+              <span class="c-val">@dragon.dreams_ ↗</span>
+            </a>
+          </div>
+
+          <div class="call-cta-bar">
+            <span class="call-cta-text">Если есть вопросы или желание дальше пообщаться, то я с большим удовольствием!</span>
+            <a href="tel:+375447979270" class="call-cta-btn">
+              <span>Связаться</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bottom Slide Controls -->
+  <footer class="deck-footer" id="deckFooter">
+    <div class="slide-counter" id="slideCounter">01 / 10 — Обо мне</div>
+    <div class="slide-dots" id="slideDots" aria-label="Навигация по слайдам"></div>
+    <div class="nav-arrows">
+      <button class="arrow-btn" id="btnPrev" aria-label="Предыдущий слайд">← Назад</button>
+      <button class="arrow-btn" id="btnNext" aria-label="Следующий слайд">Далее →</button>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal-backdrop" id="lightboxModal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="btnCloseLightbox" aria-label="Закрыть">×</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="" />
+      <video id="lightboxVideo" controls playsinline loop style="display: none;"></video>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
