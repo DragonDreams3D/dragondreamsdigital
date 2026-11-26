@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dragondreams.digital/sitemap.xml
